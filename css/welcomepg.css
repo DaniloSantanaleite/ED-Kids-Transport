@@ -53,6 +53,8 @@ section{
     height: 80px;
 }
 
+
+
 #menuNav{
     background-color: white;
     position: relative;
@@ -111,9 +113,9 @@ span{
 }
 
 span:hover{
-    margin-left: 5px;
+    color:#507D5D;
+    font-weight: bold;
     transition: 1s;
-
 }
 
 .line2{

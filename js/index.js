@@ -1,13 +1,12 @@
 const optionOne = document.getElementById ("firstOption")
+const square = document.getElementById ("magicSquare")
 
-const changeColor = () =>{
-    optionOne.style.color = " #507D5D"
-    optionOne.style.fontWeight = "Bold"
-
+const changeSquare = () =>{
+     square.src = "../html/index1.html"
     
 }
 
-optionOne.addEventListener("click", changeColor)
+optionOne.addEventListener("click", changeSquare)
 
 
 
