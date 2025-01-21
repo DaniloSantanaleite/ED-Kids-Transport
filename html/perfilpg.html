@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Perfil</title>
 <style>
     #principalPhoto{
@@ -27,6 +30,55 @@
     
     }
 
+    footer{
+    
+        position: relative;
+        top: 150px;
+        left: 10%;
+        width: 300px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        
+    }
+    .btnChange{
+        cursor: pointer;
+        width: 70px;
+        height: 25px;
+        background-color: #92E3A9;
+        color: black;
+        border-color:  rgba(0, 0, 0, 0.151);
+        border-radius: 5px;
+        box-shadow: 1px 2px rgba(0, 0, 0, 0.253);
+    }
+
+    .btnSalve{
+        cursor: pointer;
+        width: 70px;
+        height: 25px;
+        background-color: #92E3A9;
+        color: black;
+        border-color:  rgba(0, 0, 0, 0.151);
+        border-radius: 5px;
+        box-shadow: 1px 2px rgba(0, 0, 0, 0.253);
+    }
+
+    .btnChange:hover{
+        color: rgba(0, 0, 0, 0.281);
+        opacity: 1px;
+        width: 68px;
+        height: 23px;
+    }
+    .btnSalve:hover{
+        color: rgba(0, 0, 0, 0.281);
+        opacity: 1px;
+        width: 68px;
+        height: 23px;
+    }
+
+
 </style>
 
 </head>
@@ -36,6 +88,11 @@
             <img id="principalPhoto" src="../assets/perfilpg.png" alt="child and mother">
             <a href="../html/welcomepg1.html"><img  id="volta" src="../assets/backpg.png " alt="btnback"></a>
         </section>
+
+        <footer>
+            <button class="btnChange" >Alterar</button>
+            <button class="btnSalve">Salvar</button>
+        </footer>
 
     </main>
 </body>
